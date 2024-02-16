@@ -1,0 +1,140 @@
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  /* * {
+    outline: red dashed 1px;
+  } */
+  .logo {   
+    width: 90px !important;
+    margin-left: 15px !important;
+  }
+
+  nav ul {
+    gap: 20px !important;
+  }
+  nav ul li {
+    padding: 4px !important;
+  }
+
+  .header-left span {
+    font-size: 40px !important;
+  }
+  .number-stats {
+    margin-top: 20px;
+  }
+  .stats-left {
+    width: 50% !important;
+  }
+  .stats-right {
+    width: 50% !important;
+    padding-left: 15px !important;
+  }
+  .number-stats p {
+    font-size: 15px;
+  }
+  .search-button {
+    width: 150px !important;
+    padding: 3px !important;
+  }
+  .search-button input::placeholder {
+    font-size: 10px !important;
+  }
+  .search-button button {
+    width: 30px !important;
+ 
+  }
+  .search-button input {
+    width: 50% !important;
+  
+  }
+  .black-blob {
+    width: 250px !important;
+    height: 210px !important;
+
+  }
+  .top-curly-arrow {
+    width: 100px !important;
+    height: 90px !important;
+    position: absolute;
+    top: 30% !important;
+   
+  }
+  .bottom-curly-arrow {
+    width: 100px !important;
+    height: 90px !important ;
+    position: absolute;
+    bottom: 40% !important;
+  }
+  .showCase{
+    justify-content: none !important;   
+    gap: 10px !important;
+    padding: 0px 15px 0px 15px !important;
+    height: 300px !important;
+  }
+  .showCase-Description{
+    margin-left: 5px !important;
+  }
+  .showCase-Description a{
+    width: 120px !important;
+    height: 30px !important;
+    padding: 3px !important;
+    gap: 2px !important;
+ 
+  }
+  .showCase-Description p{
+    text-align: left;
+  }
+  .showcase-cards{
+    width: 10% !important;
+    min-width: 100px;
+    height: 85% !important;
+    flex-grow: 1;
+    border-radius: 24px;
+  }
+  .showcase-cards h3{
+    padding-left: 30px;
+    font-size: 13px !important;
+  }
+  .attr-card p{
+    font-size: 13px;
+  }
+  .categories-body{
+    height: 60% !important;
+  }
+  .category-card{
+    width: 190px !important;
+    height: 300px !important;
+    border-radius: 24px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .testimonial-card{
+  
+    min-width: 300px !important;
+    flex-basis: 700px;
+    height: 200px;
+    background-color: #c1dcdc;
+    border-radius: 8px;
+  
+  }
+  .testimonial-card-head{
+  
+    padding: 5px !important;
+    font-size: 13px;
+  }
+  footer{
+    gap: 10px;
+    padding-top: 20px;
+    height: auto !important;
+    flex-direction: column;
+  }
+  .footer-left{
+    width: 100% !important;
+    height: 100%;
+    display: flex;
+    justify-content: start !important;
+    align-items: center;
+  }
+  .footer-right{
+    width: 100% !important;
+    justify-content: start !important;
+  }
+}
