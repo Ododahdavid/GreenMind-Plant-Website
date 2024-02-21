@@ -681,12 +681,12 @@ footer{
 #footer {
   width: 100%;
   height: auto;
-  background-color:  #111111;
+  background-color:  #c1dcdc;
   padding: 40px;
 }
 
 .contactHeader {
-  color: #f7f7f7;
+  color: #1E1E1E;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
@@ -725,7 +725,7 @@ form {
 .footer-inputs {
   border: none;
   outline: 2px #f7f7f7 solid;
-  background-color:  #111111;
+  background-color:  #ffffff;
   border-radius: 5px;
   width: 300px;
   caret-color: #f7f7f7;
@@ -758,7 +758,7 @@ form {
   }
 }
 .messageBox{
-  background-color:  #111111;
+  background-color:  #ffffff;
   border: none;
   outline: 2px #f7f7f7 solid;
   width: 300px;
