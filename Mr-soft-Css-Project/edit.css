@@ -7,6 +7,9 @@
   font-family: "Poppins", sans-serif;
   /* outline: dashed 1px black; */
 }
+html{
+  scroll-behavior: smooth;
+}
 body {
   background-color: #ffffff;
 }
@@ -218,6 +221,26 @@ header {
   background-size: cover;
 }
 /* end of header styling */
+
+.grouped-content{
+  width: 100%;
+  height: fit-content;
+}
+
+.backToTop{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #111111;
+  position: sticky;
+  top: 90vh;
+  left: 95%;
+  z-index: 8;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .showCase{
   width: 100%;
@@ -716,7 +739,7 @@ form {
   /* justify-content: space-between; */
 }
 .label {
-  color: #f7f7f7;
+  color: #1E1E1E;
   text-transform: uppercase;
   font-weight: bolder;
   display: flex;
@@ -724,7 +747,7 @@ form {
 }
 .footer-inputs {
   border: none;
-  outline: 2px #f7f7f7 solid;
+  outline: 2px #111111 solid;
   background-color:  #ffffff;
   border-radius: 5px;
   width: 300px;
@@ -760,7 +783,7 @@ form {
 .messageBox{
   background-color:  #ffffff;
   border: none;
-  outline: 2px #f7f7f7 solid;
+  outline: 2px #1E1E1E solid;
   width: 300px;
   color: white;
   font-weight: 200;
@@ -781,8 +804,8 @@ form {
   align-items: center;
 }
 .button-div button {
-  background-color:  #111111;
-  color: #f7f7f7;
+  background-color:  #f7f7f7;
+  color: #1E1E1E;
   outline: 2px #f7f7f7 solid;
   font-weight: bold;
   text-transform: uppercase;
@@ -800,8 +823,8 @@ form {
 .button-div button:hover , .button-div button:focus{
   /* outline-offset: 20px; */
   cursor: pointer;
-  background-color: #f7f7f7;
-  color:  #111111;
+  background-color: #111111;
+  color:  #f7f7f7;
   /* outline: solid 2px #0909FF; */
   transition: .2s;
 }
@@ -814,15 +837,15 @@ form {
   gap: 30px;
 }
 .instagram{
-  color: #f7f7f7;
+  color: #111111;
   /* border-radius: 50%; */
 }
 .linked-in{
-  color: #f7f7f7;
+  color: #111111;
   /* border-radius: 50%; */
 }
 .whatsapp{
-  color: #f7f7f7;
+  color: #111111;
   
 }
 .whatsapp:hover{
