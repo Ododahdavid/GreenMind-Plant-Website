@@ -678,3 +678,170 @@ footer{
   font-size: 20px;
   margin-top: 8px;
 }
+#footer {
+  width: 100%;
+  height: auto;
+  background-color:  #111111;
+  padding: 40px;
+}
+
+.contactHeader {
+  color: #f7f7f7;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 8vw;
+
+  
+}
+form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.form-block {
+  width: auto;
+  height: auto;
+}
+.form-div {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  /* justify-content: space-between; */
+}
+.label {
+  color: #f7f7f7;
+  text-transform: uppercase;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+}
+.footer-inputs {
+  border: none;
+  outline: 2px #f7f7f7 solid;
+  background-color:  #111111;
+  border-radius: 5px;
+  width: 300px;
+  caret-color: #f7f7f7;
+  padding: 10px;
+  height: 30px;
+  color: white;
+  font-weight: 200;
+  gap: 2px;
+}
+.footer-inputs:focus{
+  outline: solid 2px #f7f7f7 !important;
+}
+.footer-inputs:valid{
+  outline: solid 2px green !important;
+  transition: .5s ease-in;
+}
+.footer-inputs:focus:invalid{
+  outline: solid 2px red !important;
+  animation: shake 0.2s 2;
+}
+@keyframes shake{
+  0%{
+    translate: 6px 0;
+  }
+  50%{
+    translate: -6px 0;
+  }
+  100%{
+    translate: 6px 0;
+  }
+}
+.messageBox{
+  background-color:  #111111;
+  border: none;
+  outline: 2px #f7f7f7 solid;
+  width: 300px;
+  color: white;
+  font-weight: 200;
+  caret-color: #f7f7f7;
+  padding: 10px;
+}
+.messageBox:valid{
+  outline: solid 2px green !important;
+  transition: .5s ease-in;
+}
+
+
+.button-div{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-div button {
+  background-color:  #111111;
+  color: #f7f7f7;
+  outline: 2px #f7f7f7 solid;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  /* outline: none; */
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+}
+.button-div button:hover , .button-div button:focus{
+  /* outline-offset: 20px; */
+  cursor: pointer;
+  background-color: #f7f7f7;
+  color:  #111111;
+  /* outline: solid 2px #0909FF; */
+  transition: .2s;
+}
+.socialsdiv{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.instagram{
+  color: #f7f7f7;
+  /* border-radius: 50%; */
+}
+.linked-in{
+  color: #f7f7f7;
+  /* border-radius: 50%; */
+}
+.whatsapp{
+  color: #f7f7f7;
+  
+}
+.whatsapp:hover{
+  outline: solid 2px #f7f7f7;
+  outline-offset: 6px;
+  transition: .1s;
+  
+  border-radius: 50%;
+}
+.instagram:hover{
+  outline: solid 2px #f7f7f7;
+  outline-offset: 6px;
+  transition: .1s;
+  
+  border-radius: 50%;
+}
+.linked-in:hover{
+  outline: solid 2px #f7f7f7;
+  outline-offset: 6px;
+  transition: .1s;
+  border-radius: 50%;
+}
