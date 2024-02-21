@@ -754,7 +754,7 @@ form {
   caret-color: #f7f7f7;
   padding: 10px;
   height: 30px;
-  color: white;
+  color: black;
   font-weight: 200;
   gap: 2px;
 }
@@ -785,7 +785,7 @@ form {
   border: none;
   outline: 2px #1E1E1E solid;
   width: 300px;
-  color: white;
+  color: black;
   font-weight: 200;
   caret-color: #f7f7f7;
   padding: 10px;
